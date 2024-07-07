@@ -2,11 +2,6 @@ const audio = document.getElementById("backgroundMusic");
 
 
    const audioQuery = document.querySelector("audio");
-   window.addEventListener("DOMContentLoaded", event => {
-       
-       audioQuery.volume = 1;
-       audioQuery.play();
-   });
 
    function audioController() {
       if (!audio.paused) {
@@ -17,7 +12,7 @@ const audio = document.getElementById("backgroundMusic");
       }
    }
 
-   imageTracker = "i"
+   imageTracker = "I"
    function imageChange() {
        var image = document.getElementById("audioController");
        
